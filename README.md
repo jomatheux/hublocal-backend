@@ -25,10 +25,23 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Project setup ENV
+
+```bash
+DATABASE_URL=
+JWT_SECRET=
+FRONTEND_URL=
+PORT=
+```
+
 ## Project setup
 
 ```bash
 $ npm install
+
+$ npx prisma db push
+
+$ npx prisma generate
 ```
 
 ## Compile and run the project
